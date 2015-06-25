@@ -1,0 +1,16 @@
+!This is a comment.
+let
+	const m ~ 7;
+	var n: Integer;
+	var i: Integer
+in
+	begin
+	n:= 2 * m * m;
+	repeat n:= 2 until 2 > n;
+	putint(n);
+	for i from 2 to n do
+   		if n > i then
+      		putint(i)
+      	else
+      		n := 5;
+	end
